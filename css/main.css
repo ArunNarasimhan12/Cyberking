@@ -14,15 +14,20 @@ body {
     font-family: 'Vollkorn', serif;
 }
 
+.number {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 0.9em !important;
+}
+
 /* ------------------------------------------------------------------------------------ */
 
 /* Logo */
 
 .logo {
     display: block;
-    margin: 1.5em auto;
-    width: 100px;
-    height: auto;
+    margin: 2em auto;
+    /* width: 100px;
+    height: auto; */
 }
 
 /* Logo */
@@ -66,6 +71,7 @@ body {
     letter-spacing: 2px;
     color: var(--blue) !important;
     transition: color 0.3s;
+    /* font-weight: bold; */
 }
 
 .nav-link:hover {
@@ -279,7 +285,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1300px;
+    min-height: 700px;
     position: relative;
 }
 
@@ -584,7 +590,11 @@ body {
     }
 
     .aboutSection {
-        min-height: 3400px;
+        min-height: 2800px;
+    }
+
+    .about-para {
+        text-align: left;
     }
 
     .black-overlay {
@@ -610,10 +620,18 @@ body {
 
 }
 
+@media screen and (max-width: 324px) {
+
+    .aboutSection {
+        min-height: 1700px;
+    }
+
+}
+
 @media screen and (min-width: 325px) and (max-width: 400px) {
 
     .aboutSection {
-        min-height: 3000px;
+        min-height: 1500px;
     }
 
 }
@@ -626,7 +644,7 @@ body {
     }
 
     .aboutSection {
-        min-height: 2800px;
+        min-height: 1500px;
     }
 
 }
@@ -634,7 +652,7 @@ body {
 @media screen and (min-width: 400px) {
 
     .aboutSection {
-        min-height: 2500px;
+        min-height: 1300px;
     }
 
 }
@@ -773,7 +791,7 @@ body {
 @media screen and (min-width: 768px) {
 
     .aboutSection {
-        min-height: 1800px;
+        min-height: 950px;
     }
 
     .black-overlay {
@@ -793,7 +811,7 @@ body {
     }
 
     .aboutSection {
-        min-height: 1600px;
+        min-height: 750px;
     }
 
 }
@@ -801,7 +819,7 @@ body {
 @media screen and (min-width: 1366px) {
 
     .aboutSection {
-        min-height: 1300px;
+        min-height: 700px;
     }
 
 }
